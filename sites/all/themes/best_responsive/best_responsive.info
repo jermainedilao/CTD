@@ -20,6 +20,7 @@ regions[footer]         = Footer
 regions[footer_first]   = First Bottom
 regions[footer_second]  = Second Bottom
 regions[footer_third]   = Third Bottom
+regions[map]            = Map
 features[] = logo
 features[] = name
 features[] = slogan

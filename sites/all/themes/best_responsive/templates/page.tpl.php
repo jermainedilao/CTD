@@ -122,15 +122,16 @@
     <?php if ($site_slogan): ?><h2 id="site-slogan"><?php print $site_slogan; ?></h2><?php endif; ?>
     <?php if (theme_get_setting('slideshow_display','best_responsive')): ?>
     <div id="home-slider">
-      <div class="flexslider-container">
+      <!--<div class="flexslider-container">
         <div id="single-post-slider" class="flexslider">
           <ul class="slides">
             <li class="slide"><img src="<?php print base_path() . drupal_get_path('theme', 'best_responsive') . '/images/slide-image-1.jpg'; ?>" alt="Slide"/></li>
             <li class="slide"><img src="<?php print base_path() . drupal_get_path('theme', 'best_responsive') . '/images/slide-image-2.jpg'; ?>" alt="Slide"/></li>
             <li class="slide"><img src="<?php print base_path() . drupal_get_path('theme', 'best_responsive') . '/images/slide-image-3.jpg'; ?>" alt="Slide"/></li>
-          </ul><!-- /slides -->
-        </div><!-- /flexslider -->
-      </div>
+          </ul>
+        </div>
+      </div>-->
+	  <?php print render($page['map']); ?>
     </div>
     <?php endif; ?>
     <?php endif; ?>
