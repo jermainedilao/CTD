@@ -1465,3 +1465,7 @@ border-left: 1px solid; border-right: 1px solid; height: 40px; margin-left: -36p
 .field-name-field-user-location {
 	clear: both;
 }
+
+footer{
+	clear: both;
+}
