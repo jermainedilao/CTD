@@ -45,7 +45,7 @@ table {
 /* Body & Main
 ================================================== */
 body {
-  background: #ddd url("images/bg.png");
+  background: #fff;
   nowhitespace: afterproperty;
   font: 14px/1.8 'Open Sans', Helvetica, Arial, sans-serif;
   color: #666;
@@ -54,11 +54,11 @@ body {
 }
 
 body a {
-  color: #e73420;
+  color: #127292;
 }
 body a:hover {
   text-decoration: none;
-  color: #e73420;
+  color: #091521;
 }
 
 /*set max img width*/
@@ -198,7 +198,7 @@ table {
 th {
   font-weight: bold;
   padding:10px 10px;
-  background:#555;
+  background:#091421;
   color:#fff;
 }
 
@@ -210,6 +210,7 @@ td{
   padding:5px 10px;
   border-top:1px solid #ddd;
   border-right:1px solid #ddd;
+  background: #fff;
 }
 
 /* Typography
@@ -228,7 +229,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 }
 
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
-  color: #e73420;
+  color: #127293;
   text-decoration: none;
 }
 
@@ -343,7 +344,7 @@ a:focus {
 /*header*/
 #header {
   position: relative;
-  background: #111 url("images/vintage.png");
+  background: #fff;
   margin-bottom: 30px;
 }
 
@@ -360,7 +361,7 @@ a:focus {
   padding: 0px;
   margin: 0px;
   text-decoration: none;
-  color: #fff;
+  color: #001b23;
   padding: 40px 10px;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -481,12 +482,12 @@ a:focus {
 }
 
 #navigation #main-menu > ul > li > a:hover {
-  color: #fff;
+  color: #117292;
 }
 
 #navigation #main-menu > ul > li > a.active {
-  background: #e73420;
-  color: #fff;
+  background: #091521;
+  color: #eee;
   font-weight: bold;
 }
 
@@ -494,7 +495,7 @@ a:focus {
 #navigation a.active,
 #navigation a.active:hover,
 #navigation #main-menu > ul > li > a.active-trail {
-  color: #fff;
+  color: #091521;
 }
 
 /*drop-down styles*/
@@ -741,7 +742,7 @@ h1.page-title {
   padding: 6px;
   height: auto;
   max-width: 97.4%;
-  margin: 0.5em 1em 0.5em 0;
+  margin: 0px 6px 0px 0px;
 }
 
 .node-teaser p {
@@ -757,7 +758,7 @@ h1.page-title {
 ================================================== */
 
 .sidebar-bg{
-  background: #fff url("images/sidebar-bg.png") right repeat-y;
+  /*background: #fff url("images/sidebar-bg.png") right repeat-y;*/
 }
 
 #sidebar .block > h2 {
@@ -767,7 +768,7 @@ h1.page-title {
 }
 
 #sidebar .block > h2 span {
-  background: #f9f9f9;
+  background: #fff;
   padding-right: 15px;
 }
 
@@ -780,7 +781,7 @@ h1.page-title {
 }
 
 #sidebar a:hover {
-  color: #e73420;
+  color: #117295;
   text-decoration: none;
 }
 
@@ -827,7 +828,7 @@ h1.page-title {
 
 /*footer main*/
 #footer-area {
-  background: #111 url("images/vintage.png");
+  background: #091521 url("images/vintage.png");
   padding: 40px;
   font-size: 0.929em;
   position: relative;
@@ -1290,7 +1291,7 @@ ul.inline, ul.links.inline {
 }
 
 .field-name-field-tags a{
-  background: #e73420;
+  background: #117292;
   margin-right: 5px;
   margin-bottom: 5px;
   border-radius: 2px;
@@ -1300,7 +1301,7 @@ ul.inline, ul.links.inline {
 }
 
 .field-name-field-tags a:hover{
-  background: #111;
+  background: #091421;
   color: #fff;
 }
 
@@ -1441,3 +1442,20 @@ border-left: 1px solid; border-right: 1px solid; height: 40px; margin-left: -36p
   font-size: 16px;
 }
 
+/*custom styles*/
+
+.field-name-body{
+	clear: both;
+}
+
+.field-name-field-user-location-signup{
+	clear: both;
+}
+
+.profile .user-picture{
+	float: left;
+}
+
+.field-name-field-user-location {
+	clear: both;
+}

@@ -34,7 +34,7 @@
     left: auto;
     right: auto;
     margin-top: 0;
-    background: #e73420 url("../images/responsive-nav.png") right center no-repeat;
+    background: #091521 url("../images/responsive-nav.png") right center no-repeat;
   }
 
   #navigation .selector {
@@ -94,7 +94,7 @@
   }
 
   #navigation .selector option {
-    background: #000;
+    background: #fff;
     -webkit-appearance: none;
     padding: 10px 40px;
     border: none;
@@ -124,8 +124,10 @@
   #sidebar {
     width: 190px;
   }
+  
   .sidebar-bg{
-    background-image: url("../images/sidebar-bg-tablet.png");
+    /*background-image: url("../images/sidebar-bg-tablet.png");*/
+    background: #fff;
   }
 
   .meta li{
@@ -186,7 +188,7 @@
   
   #sidebar{
     width: 100%;
-    background: #f9f9f9;
+    background: #fff;
     margin: 30px -30px -30px;
     padding: 30px;
     border-top: 1px solid #ddd;
