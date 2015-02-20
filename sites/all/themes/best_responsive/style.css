@@ -801,6 +801,12 @@ h1.page-title {
   float: left;
   width: 260px;
   margin-right: 50px;
+  text-align: center;
+}
+
+.preface-block  span {
+	text-align: center;
+	font-size: 18px;
 }
 
 .preface-block.remove-margin {
