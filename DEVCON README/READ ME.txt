@@ -1,1 +1,12 @@
-1.) CREATE ASDSAD
+1.) CREATE DB "ctd"
+
+2.) IMPORT "DEVCON README/CTD.sql" to "ctd" database
+
+3.) EDIT "sites/default/settings.php"
+	
+	3.1) CHANGE DB "username" FOUND IN LINE 221 WITH YOUR CURRENT DB USERNAME
+
+	3.2) CHANGE DB "password" FOUND IN LINE 222 WITH YOUR CURRENT DB PASSWORD
+
+4.) TO ACCESS THE SITE GO TO "http://localhost/ctd"
+
