@@ -90,7 +90,7 @@
       <?php if ($display_submitted): ?>
         <ul class="meta clearfix">
           <li><strong>Posted on:</strong> <?php print $date; ?></li> <br/>
-          <li><strong>By:</strong> <?php print $name; ?></li>   
+          <li><strong>By:</strong> <?php print $name; ?></li>
         </ul>
       <?php endif; ?>
 
