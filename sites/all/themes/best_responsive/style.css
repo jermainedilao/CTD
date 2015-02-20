@@ -495,7 +495,7 @@ a:focus {
 #navigation a.active,
 #navigation a.active:hover,
 #navigation #main-menu > ul > li > a.active-trail {
-  color: #fff;
+  color: #eee;
 }
 
 /*drop-down styles*/
